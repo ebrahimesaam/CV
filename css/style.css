@@ -1,0 +1,24 @@
+
+body{
+    background: red;
+}
+.hero{ height: 700px;
+     position: relative;
+    overflow: hidden; 
+}
+.btn ,.btn:hover{
+    color: #fff;
+}
+
+.box button:hover i{
+    color: #42f1f1;
+}
+.content{
+    transform: translateX(100%);
+    position: absolute;
+    transition: .5s;
+    /* overflow: hidden; */
+}
+#PersonalInfo{
+    transform: translateX(0%);
+}

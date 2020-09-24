@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="container bg-dark ">
+    <section class=" hero ">
+        <div class="container ">
+            <div class="row d-flex justify-content-around border-bottom  mb-2 box">
+
+                <button id="btn1" class=" btn btn-lg border-0 text-capitalize  pt-5 mb-3 mt-5  shadow-none"
+                    onclick="displayPersonalInfo()">
+                    <i class="fa fa-user fa-2x mr-3 "></i>
+                    personal information</button>
+
+                <button id="btn2" class=" btn btn-lg border-0 text-capitalize  pt-5 mb-3 mt-5  shadow-none"
+                    onclick="displayEducation()"><i class="fas fa-book fa-2x mr-3 "></i>
+                    Education</button>
+
+                <button id="btn3" class=" btn btn-lg border-0 text-capitalize  pt-5 mb-3 mt-5  shadow-none"
+                    onclick="displayExperience()"><i class="fas fa-briefcase fa-2x mr-3 "></i>
+                    Experience</button>
+
+                <button id="btn4" class=" btn btn-lg border-0 text-capitalize  pt-5 mb-3 mt-5  shadow-none"
+                    onclick="displayContact()"><i class="fas fa-comment fa-2x mr-3 "></i>
+                    Contacts</button>
+            </div><!-- box -->
+        </div><!-- container -->
+
+        <div class="container">
+            <div class="content text-white" id="PersonalInfo">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class="ml-4 mt-5 font-weight-bold mb-3"> Ebrahim Esam Lotfy</h1>
+                        <h2 class="mb-4  ml-5"><i class="fas fa-map-marker-alt p-3 text-primary"></i> Address</h2>
+                        <p class="mb-4 pl-5 ml-5 lead"><i class="fas fa-circle text-success p-3"></i>Mansoura ,Sherbin
+                        </p>
+                        <h2 class="mb-4 ml-5"><i class="far fa-calendar-alt p-3 text-primary"></i>Date Of Birth</h2>
+                        <p class="ml-5 pl-5 lead"><i class="fas fa-circle text-success p-3"></i> 1 June 1999</p>
+                        <p class="ml-5 pl-5 lead"><i class="fas fa-circle text-success p-3"></i> Age 21</p>
+                    </div><!-- left -->
+                    <div class="col-md-4">
+                        <img src="image/prof.jpg" class="rounded-circle w-75 my-5 text-center" alt="">
+                    </div><!-- right -->
+                </div><!-- prof -->
+            </div><!-- #PersonalInfo -->
+
+            <div class="content text-white" id="Education">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class="ml-5 mt-5 font-weight-bold mb-3"><i class="fas fa-school text-primary"></i> school
+                        </h2>
+                        <p class="mb-4 pl-5 ml-5 lead"><i class="fas fa-circle text-success p-3"></i>Mahmoud Shehab
+                            Preparatory</p>
+                        <p class="mb-4 pl-5 ml-5 lead"><i class="fas fa-circle text-success p-3"></i>Mahmoud Shehab
+                            Secondary</p>
+                        <h2 class="mb-4 ml-5"><i class="fas fa-university text-primary"></i></i> Mansoura University
+                        </h2>
+                        <p class="ml-5 pl-5 lead"><i class="fas fa-circle text-success p-3"></i> I study in the Faculty
+                            of
+                            Computers and Information</p>
+                        <p class="ml-5 pl-5 lead"><i class="fas fa-circle text-success p-3"></i> fourth grade</p>
+                    </div><!-- left -->
+                    <div class="col-md-4">
+                        <img src="image/photo_2020.jpg" class="rounded-circle w-75 my-5 text-center" alt="">
+                    </div><!-- right -->
+                </div><!-- education -->
+            </div><!-- #Education -->
+
+            <div class="content text-white" id="Experience">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class="ml-4 mt-5 font-weight-bold mb-3"><i class="fab fa-chrome text-primary"></i> Web</h2>
+                        <p class="mb-4 pl-5 ml-5 lead"><i class="fas fa-circle text-success p-3"></i>HTML</p>
+                        <p class="mb-4 pl-5 ml-5 lead"><i class="fas fa-circle text-success p-3"></i>CSS</p>
+                        <p class="ml-5 pl-5 lead"><i class="fas fa-circle text-success p-3"></i> BOOTSTRAP</p>
+                        <p class="ml-5 pl-5 lead"><i class="fas fa-circle text-success p-3"></i> JAVASCRIPT</p>
+                    </div><!-- left -->
+                    <div class="col-md-4">
+                        <img src="image/photo_2020-09-24_13-27-58.jpg" class="rounded-circle w-75 my-5 text-center"
+                            alt="">
+                    </div><!-- right -->
+                </div><!--  Experience -->
+            </div><!-- #Experience -->
+
+            <div class="content text-white" id="Contact">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class="ml-4  font-weight-bold mb-3"> Contact</h1>
+                        <h2 class="pl-5 ml-5 lead"><i class="fas fa-mobile-alt text-primary fa-2x p-3"></i> Phone Number
+                        </h2>
+
+                        <p class="ml-5 pl-5 lead"><i class="fas fa-circle text-success p-3"></i> 01097547401</p>
+                        <h1 class="mt-5 mb-4 ml-4 font-weight-bold"> Accounts</h1>
+                        <p class="ml-5 pl-5"> <i class="fab fa-facebook fa-2x mr-2 text-primary"></i> @Ibrahim Amasha
+                        </p>
+                        <p class="ml-5 pl-5"> <i class="fab fa-twitter fa-2x mr-2  text-primary"></i> @Ibrahim_Esam </p>
+                        <p class="ml-5 pl-5"> <i class="fab fa-instagram fa-2x mr-2 text-primary"></i> @Ibrahim_Esam
+                        </p>
+                        <p class="ml-5 pl-5"> <i class="fab fa-google fa-2x mr-2 text-primary"></i>
+                            himaamasha432@gmail.com
+                        </p>
+
+                    </div><!-- left -->
+                    <div class="col-md-4">
+                        <img src="image/photo_contect.jpg" class="rounded-circle w-75 my-5 text-center" alt="">
+                    </div><!-- right -->
+                </div><!-- Contacts -->
+            </div><!-- #Contact -->
+        </div><!--content container -->
+
+
+    </section><!-- hero -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
